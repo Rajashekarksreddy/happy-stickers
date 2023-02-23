@@ -1,10 +1,12 @@
-import "./styles.css";
+import StickerPad from './StickerPad';
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <p>Click around to add stickers!</p>
+      <StickerPad />
+    </>
   );
 }
+
+export default App;
